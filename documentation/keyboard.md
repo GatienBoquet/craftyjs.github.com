@@ -18,5 +18,5 @@ Crafty.init();
 Crafty.e('2D, Canvas, Twoway, Color')
   .attr({x: 10, y: 10, h: 30, w: 30})
   .color('red')
-  .twoway()
+  .twoway(4)
 ```
